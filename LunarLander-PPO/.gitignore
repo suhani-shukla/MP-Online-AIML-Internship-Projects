@@ -23,3 +23,8 @@ graphs/*.png
 # Python cache
 __pycache__/
 *.pyc
+
+models/checkpoints/*
+!models/checkpoints/.gitkeep
+models/best_model/*
+!models/best_model/.gitkeep

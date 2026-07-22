@@ -64,3 +64,15 @@ RENDER_SLEEP = 0.02  # seconds between frames, for smoother visual playback
 # Chunked Training Configuration
 # ---------------------------------------------------------
 CHUNK_TIMESTEPS = 50_000   # train this many timesteps per run
+
+# ---------------------------------------------------------
+# Callback Configuration
+# ---------------------------------------------------------
+CHECKPOINT_FREQ = 10_000       # save a checkpoint every N timesteps
+CHECKPOINT_DIR = os.path.join(MODELS_DIR, "checkpoints")
+BEST_MODEL_DIR = os.path.join(MODELS_DIR, "best_model")
+EVAL_FREQ = 10_000              # run evaluation every N timesteps during training
+N_EVAL_EPISODES_CALLBACK = 5    # keep this small so it doesn't slow training too much
+
+os.makedirs(CHECKPOINT_DIR, exist_ok=True)
+os.makedirs(BEST_MODEL_DIR, exist_ok=True)
