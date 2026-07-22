@@ -1,46 +1,30 @@
-# Virtual environment
-.venv/
+# repo root: /.gitignore
+
+# Virtual environments (in case any exist at root level)
 venv/
+.venv/
 env/
 
-# Python cache
+# Python cache/bytecode
 __pycache__/
-*.py[cod]
-*$py.class
+*.pyc
+*.pyo
+*.pyd
 
-# Jupyter
-.ipynb_checkpoints/
-
-# VS Code
-.vscode/
-
-# PyCharm
-.idea/
-
-# Environment variables
-.env
-
-# Logs
-logs/
-*.log
-
-# Training outputs
-models/
-videos/
-graphs/
-
-# OS files
+# OS-specific junk
 .DS_Store
 Thumbs.db
 
-# Build artifacts
-build/
-dist/
-*.egg-info/
+# Editor/IDE settings
+.vscode/
+.idea/
 
-# Test cache
-.pytest_cache/
+# Environment variable files (secrets, API keys, etc.)
+.env
+*.env.local
 
-# Coverage
-.coverage
-htmlcov/
+# Jupyter checkpoints (if any project uses notebooks)
+.ipynb_checkpoints/
+
+# General log files
+*.log
