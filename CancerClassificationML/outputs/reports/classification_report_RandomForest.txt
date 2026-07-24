@@ -1,0 +1,17 @@
+RandomForest - Test Set Classification Report
+Test Accuracy: 0.9876
+Test Macro-F1: 0.9893
+Test Weighted-F1: 0.9874
+COAD Recall: 1.0000
+
+              precision    recall  f1-score   support
+
+        BRCA       0.97      1.00      0.98        60
+        COAD       1.00      1.00      1.00        16
+        KIRC       1.00      1.00      1.00        30
+        LUAD       1.00      0.93      0.96        28
+        PRAD       1.00      1.00      1.00        27
+
+    accuracy                           0.99       161
+   macro avg       0.99      0.99      0.99       161
+weighted avg       0.99      0.99      0.99       161

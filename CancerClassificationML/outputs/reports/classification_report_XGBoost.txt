@@ -1,0 +1,17 @@
+XGBoost - Test Set Classification Report
+Test Accuracy: 0.9814
+Test Macro-F1: 0.9794
+Test Weighted-F1: 0.9812
+COAD Recall: 0.9375
+
+              precision    recall  f1-score   support
+
+        BRCA       0.97      1.00      0.98        60
+        COAD       1.00      0.94      0.97        16
+        KIRC       1.00      1.00      1.00        30
+        LUAD       0.96      0.93      0.95        28
+        PRAD       1.00      1.00      1.00        27
+
+    accuracy                           0.98       161
+   macro avg       0.99      0.97      0.98       161
+weighted avg       0.98      0.98      0.98       161

@@ -1,0 +1,17 @@
+MLPClassifier - Test Set Classification Report
+Test Accuracy: 0.9938
+Test Macro-F1: 0.9947
+Test Weighted-F1: 0.9938
+COAD Recall: 1.0000
+
+              precision    recall  f1-score   support
+
+        BRCA       0.98      1.00      0.99        60
+        COAD       1.00      1.00      1.00        16
+        KIRC       1.00      1.00      1.00        30
+        LUAD       1.00      0.96      0.98        28
+        PRAD       1.00      1.00      1.00        27
+
+    accuracy                           0.99       161
+   macro avg       1.00      0.99      0.99       161
+weighted avg       0.99      0.99      0.99       161

@@ -1,0 +1,13 @@
+=== EDA SUMMARY ===
+Data shape: (801, 20531)
+Labels shape: (801, 1)
+Missing values: 0
+Zero-variance genes: 267
+
+Class distribution:
+Class
+BRCA    300
+KIRC    146
+LUAD    141
+PRAD    136
+COAD     78
