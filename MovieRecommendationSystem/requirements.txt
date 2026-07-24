@@ -1,0 +1,24 @@
+pandas
+numpy
+scikit-learn
+streamlit
+```
+
+> Kept unversioned/minimal on purpose — beginner-friendly and avoids pinning versions that might clash with your shared root venv. Let me know if you'd rather I pin exact versions (e.g. `pandas==2.2.2`) for reproducibility.
+
+---
+
+### `.gitkeep` files (to preserve empty folders since `.gitignore` excludes their contents)
+
+**`MovieRecommendationSystem/data/.gitkeep`**
+```
+```
+*(empty file — just needs to exist)*
+
+**`MovieRecommendationSystem/models/.gitkeep`**
+```
+```
+*(empty file)*
+
+**`MovieRecommendationSystem/screenshots/.gitkeep`**
+```
