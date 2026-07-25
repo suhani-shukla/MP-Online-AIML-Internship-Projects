@@ -2,6 +2,9 @@ pandas
 numpy
 scikit-learn
 streamlit
+
+matplotlib
+jupyter
 ```
 
 > Kept unversioned/minimal on purpose — beginner-friendly and avoids pinning versions that might clash with your shared root venv. Let me know if you'd rather I pin exact versions (e.g. `pandas==2.2.2`) for reproducibility.
