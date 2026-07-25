@@ -17,3 +17,6 @@ models/*
 
 # OS
 .DS_Store
+
+# Streamlit
+.streamlit/
