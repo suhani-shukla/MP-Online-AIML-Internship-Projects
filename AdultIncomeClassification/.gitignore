@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
+
+# Data (ignore contents, keep folder)
+data/*
+!data/.gitkeep
+
+# Models (ignore contents, keep folder)
+models/*
+!models/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
